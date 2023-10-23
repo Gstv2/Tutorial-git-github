@@ -1,0 +1,61 @@
+Tutorial git e github - Gustavo Nery
+
+passo 1 - instale o git e faça uma conta no git hub;
+passo 2 - abra o git bash
+passo 3 - escreva "git clone -> url do repositorio 
+passo 4 - abra a pasta criada e crie seus documentos
+passo 5 - no terminal digite os seguintes passos
+passo 5 - git init
+passo 6 - git add .
+passo 7 - git commit -a -m "nome do commit"
+passo 8 - git log 
+passo 9 - git remote origin -> url do repositorio
+passo 9 - git push
+
+
+
+
+
+
+--Funções--
+
+git init - Inicializa um novo repositório Git na pasta atual.
+
+git log - Mostra o histórico de commits no repositório.
+
+git reflog - Exibe o registro de referências, que registra todas as ações realizadas no repositório, incluindo commits, branches criados, entre outros.
+
+git add . - Adiciona todas as mudanças no diretório de trabalho para a área de preparação (staging area).
+
+git add <nome do arquivo> - Adiciona um arquivo específico para a área de preparação.
+
+git commit -a -m "nome do commit" - Realiza um commit com todas as mudanças no diretório de trabalho e adiciona uma mensagem de commit.
+
+git commit <caminho do arquivo> - Realiza um commit de um arquivo específico.
+
+git branch - Lista todas as branches no repositório e mostra a branch atual (a branch em que você está).
+
+git checkout - Permite alternar entre branches ou commits específicos.
+
+git branch <nome> - Cria uma nova branch com o nome especificado.
+
+git pull - Atualiza o repositório local com as mudanças do repositório remoto (equivale a git fetch seguido por git merge).
+
+Aqui estão alguns comandos adicionais:
+
+git clone <URL> - Clona um repositório Git remoto para o seu sistema local.
+
+git push - Envia os commits locais para um repositório Git remoto.
+
+git merge <nome da branch> - Combina os commits de uma branch com a branch atual.
+
+git remote -v - Exibe os repositórios remotos configurados para o repositório local.
+
+git status - Mostra o estado atual do seu diretório de trabalho, incluindo os arquivos que foram modificados, adicionados ou removidos.
+
+git tag - Gerencia tags (etiquetas) para marcar pontos específicos na história do repositório.
+
+git log --graph - Exibe o histórico de commits de forma gráfica, mostrando as diferentes ramificações e fusões.
+
+Estas são algumas das funcionalidades comuns dos comandos Git, mas o Git é uma ferramenta poderosa com muitas funcionalidades adicionais. Você pode explorar mais comandos e opções usando git --help ou consultando a documentação oficial do Git.
+
