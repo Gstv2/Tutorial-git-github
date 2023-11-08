@@ -1,3 +1,10 @@
+
+para a instalação do git siga o video   https://www.youtube.com/watch?v=gMh6lrXibWY&t=1569s
+#não precisa baixar o github desktop, agora se não tiver Vscode seria bom baixar para deixar no seu pc 
+o video sera usado apenas para pegar sua configuração do git para sua ultilização 
+após sua instalação e configuração siga o Tutorial abaixo
+
+
 Tutorial git e github - Gustavo Nery
 
 passo 1 - instale o git e faça uma conta no git hub;
@@ -59,3 +66,7 @@ git log --graph - Exibe o histórico de commits de forma gráfica, mostrando as 
 
 Estas são algumas das funcionalidades comuns dos comandos Git, mas o Git é uma ferramenta poderosa com muitas funcionalidades adicionais. Você pode explorar mais comandos e opções usando git --help ou consultando a documentação oficial do Git.
 
+mais comando : https://blog.rocketseat.com.br/como-fazer-um-commit-conventional-commits/
+
+
+obs: qualquer duvida existe varios videos no youtube que concerteza vao resolver seus problemas ou tente entrar em contato
