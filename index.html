@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Git e GitHub Tutorial</title>
+    
+</head>
+<body>
+    <h1>Git e GitHub Tutorial</h1>
+    <p>Para a instalação do Git, siga o vídeo. Agora, se não tiver o VSCode, seria bom baixar para deixar no seu PC.</p>
+    <p>O vídeo será usado apenas para pegar sua configuração do Git para sua utilização. Após a instalação e configuração, siga o tutorial abaixo:</p>
+
+    <div class="commands">
+        <p><strong>Tutorial Git e GitHub - Gustavo Nery</strong></p>
+        <ol>
+            <li>Instale o Git e faça uma conta no GitHub;</li>
+            <li>Abra o Git Bash;</li>
+            <li>Escreva <code>git clone &lt;URL do repositório&gt;</code>;</li>
+            <li>Abra a pasta criada e crie seus documentos;</li>
+            <li>No terminal, digite os seguintes passos:</li>
+            <ol type="a">
+                <li><code>git init</code></li>
+                <li><code>git add .</code></li>
+                <li><code>git commit -a -m "nome do commit"</code></li>
+                <li><code>git log</code></li>
+                <li><code>git remote origin &lt;URL do repositório&gt;</code></li>
+                <li><code>git push</code></li>
+            </ol>
+        </ol>
+    </div>
+
+    <h2>Funções Git</h2>
+    <ul>
+        <li><code>git init</code> - Inicializa um novo repositório Git na pasta atual.</li>
+        <li><code>git log</code> - Mostra o histórico de commits no repositório.</li>
+        <li><code>git reflog</code> - Exibe o registro de referências.</li>
+        <li><code>git add .</code> - Adiciona todas as mudanças na área de preparação (staging area).</li>
+        <li><code>git add &lt;nome do arquivo&gt;</code> - Adiciona um arquivo específico na área de preparação.</li>
+        <li><code>git commit -a -m "nome do commit"</code> - Realiza um commit com todas as mudanças e adiciona uma mensagem.</li>
+        <li><code>git commit &lt;caminho do arquivo&gt;</code> - Realiza um commit de um arquivo específico.</li>
+        <li><code>git branch</code> - Lista todas as branches e mostra a branch atual.</li>
+        <li><code>git checkout</code> - Permite alternar entre branches ou commits específicos.</li>
+        <li><code>git branch &lt;nome&gt;</code> - Cria uma nova branch.</li>
+        <li><code>git pull</code> - Atualiza o repositório local com as mudanças do repositório remoto.</li>
+        <li><code>git clone &lt;URL&gt;</code> - Clona um repositório remoto para o seu sistema local.</li>
+        <li><code>git push</code> - Envia os commits locais para um repositório remoto.</li>
+        <li><code>git merge &lt;nome da branch&gt;</code> - Combina os commits de uma branch com a branch atual.</li>
+        <li><code>git remote -v</code> - Exibe os repositórios remotos configurados para o repositório local.</li>
+        <li><code>git status</code> - Mostra o estado atual do seu diretório de trabalho.</li>
+        <li><code>git tag</code> - Gerencia tags (etiquetas) para marcar pontos específicos na história do repositório.</li>
+        <li><code>git log --graph</code> - Exibe o histórico de commits de forma gráfica.</li>
+    </ul>
+
+    <h2>Commits Semânticos</h2>
+    <p>Os commits semânticos seguem um padrão de mensagem que expressa a natureza das mudanças realizadas. Exemplo:</p>
+        <ul>
+            <li><code>feat:</code> - Adiciona uma nova funcionalidade</li>
+            <li><code>fix:</code> - Corrige um bug</li>
+            <li><code>docs:</code> - Atualiza a documentação</li>
+            <li><code>style:</code> - Faz ajustes de estilo</li>
+            <li><code>refactor:</code> - Refatora o código</li>
+            <li><code>test:</code> - Adiciona ou modifica testes</li>
+            <li><code>chore:</code> - Realiza tarefas de manutenção ou outras pequenas alterações</li>
+        </ul>
+    <p>Para mais detalhes, consulte: <a href="https://blog.rocketseat.com.br/como-fazer-um-commit-conventional-commits/" target="_blank">Conventional Commits</a></p>
+
+    <p>Obs: Qualquer dúvida, existem vários vídeos no YouTube que certamente vão resolver seus problemas ou tente entrar em contato.</p>
+
+</body>
+</html>
